@@ -109,6 +109,11 @@ class Memes:
         await self._meme(ctx, "Press F to pay respects.")
 
     @commands.command(pass_context=True, hidden=True)
+    async def hero(self, ctx):
+        """Memes."""
+        await self._meme(ctx, "F")
+
+    @commands.command(pass_context=True, hidden=True)
     async def permabrocked(self, ctx):
         """Memes."""
         await self._meme(ctx, "http://i.imgur.com/ARsOh3p.jpg")
