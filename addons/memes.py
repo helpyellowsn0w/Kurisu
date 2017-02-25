@@ -70,7 +70,7 @@ class Memes:
         embed.add_field(name="field1_noinline", value="field1_noinline")
 #    embed.add_field(name="field2_noinline", value="field2_noinline", inline=False)
 #    embed.add_field(name="field3_noinline", value="field3_noinline", inline=False)
-    await self.bot.say(embed=embed)
+        await self.bot.say(embed=embed)
 
     @commands.command(pass_context=True, hidden=True)
     async def rip(self, ctx):
